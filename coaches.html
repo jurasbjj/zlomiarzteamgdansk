@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Złomiarz Team</title>
+    
+    <!-- main css-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/coaches.css">
+    <!-- swiper css -->
+
+    <!-- icons -->
+    <script src="//code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="//kit.fontawesome.com/9ff07957db.js" crossorigin="anonymous"></script>
+    <script type="module" src="//unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="//unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+
+    <style>
+      /* PRELOADER */
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(720deg)
+    }
+}
+/* loader */
+@media(max-width: 800px){
+    .loader-wrapper{
+        margin-top: 0 !important;
+    }
+
+    .loader-wrapper img{
+        width: 100px !important;
+        height: 100px !important;
+        top: calc(50% - 50px) !important;
+        left: calc(50% - 50px) !important;
+
+    }
+}
+    </style>
+    
+</head>
+<body>
+  <!-- PRELOADER  -->
+  <div class="loader-wrapper" style="z-index: 1000;background-color: #F8F8F8;width: 100vw; height: 100vh; position: fixed; margin-top: 72px;" > 
+    <img src="img/LOGO_ZT_MINI.png" alt="" style="  width: 150px;height: 150px;position: fixed;top: calc(50% - 75px);left: calc(50% - 75px);animation: rotate 10s infinite both linear;transform: rotate(0deg);">    
+  </div> 
+
+  <!-- cień nawigacji mobilnej -->
+<span class="fade"></span> 
+
+    <nav class="mobile">
+      
+      <div class="logo">
+        <div class="logoImg"><img src="img/LOGO_ZT_MINI.png" alt=""></div>
+        
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul>
+        <li><a href="index.html#about_us">O nas</a></li>
+        <li><a href="practise.html">Co trenujemy?</a></li>
+        <li><a href="coaches.html">Trenerzy</a></li>
+        <li><a href="index.html#schedule">Grafik</a></li>
+        <li><a href="index.html#price">Cennik</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#contact">Kontakt</a></li>
+    </ul>
+    </nav>
+    
+    <nav class="desktop active">
+      <div class="content">
+        <img src="img/LOGO_ZT_MINI.png" alt="">
+        <ul>
+            <li><a href="index.html#about_us">O nas</a></li>
+            <li><a href="practise.html">Co trenujemy?</a></li>
+            <li><a href="coaches.html">Trenerzy</a></li>
+            <li><a href="index.html#schedule">Grafik</a></li>
+            <li><a href="index.html#price">Cennik</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="index.html#contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+<div class="bgC">
+  <img class="bgLogo" src="img/LOGO_ZT_BG.png" alt="">
+    <section id="coaches">
+      <div class="content">
+        <div class="head">
+          <h1>Trenerzy</h1>
+          <h2>Nasza kadra. Trenerzy, zawodnicy, pasjonaci.</h2>
+        </div>
+        <div class="post">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div data-id="0" class="swiper-slide swiper-slide-active"><img src="img/coaches/daniel.webp" alt=""></div>
+              <div data-id="1" class="swiper-slide"><img src="img/coaches/adam.webp" alt=""></div>
+              <div data-id="2" class="swiper-slide"><img src="img/coaches/andrzej.webp" alt=""></div>
+              <div data-id="3" class="swiper-slide"><img src="img/coaches/marcin.webp" alt=""></div>
+              <div data-id="4" class="swiper-slide"><img src="img/coaches/asia.webp" alt=""></div>
+              <div data-id="5" class="swiper-slide"><img src="img/coaches/michał.webp" alt=""></div>
+              <div data-id="6" class="swiper-slide"><img src="img/coaches/mateusz.webp" alt=""></div>
+              <!-- <div data-id="7" class="swiper-slide"><img src="" alt=""></div> -->
+            </div>
+          </div>
+          
+          <div class="arrows mobile">
+            <img class="left slider-arrow" src="img/svg/arrow-left.svg" alt="">
+            <span class="slide-number"></span>
+            <img class="right slider-arrow" src="img/svg/arrow-right.svg" alt="">
+          </div>
+<!-- 
+ -->
+          <div class="text">
+            <div class="head1">
+              <h1>Daniel Wrześniewski</h1>
+              <div class="arrows desktop">
+                <img class="left slider-arrow disable" src="img/svg/arrow-left.svg" alt="">
+                <span class="pagination">01 / 08</span>
+                <img class="right slider-arrow" src="img/svg/arrow-right.svg" alt="">
+              </div>
+            </div>
+            <h3>BRAZYLIJSKIE JIU-JITSU</h3>
+            <p>Współzałożyciel klubu Złomiarz Team. Czarny pas bjj od 2012 roku pod Vagner „Boca” Guimaraes. Ze sportem związany od 7 roku życia, zaś z samym BJJ od 15 lat. Doświadczony trener i zawodnik. Multimedalista polskiej jak i zagranicznej sceny BJJ. Na co dzień nauczyciel wychowania fizycznego oraz trener grupy zaawansowanej w naszym klubie. Ceni sobie wytrwałość i ciężką pracę.</p>
+            <span class="coach-social">
+              <a href="tel:+48607548866"><img class="social" src="img/svg/phone.svg" alt=""> <span>607 548 866</span></a>
+            </span>
+            <span class="coach-social">
+              <a href="mailto:marcinsoszynskibjj@gmailcom"><img class="social" src="img/svg/mail.svg" alt=""> <span>marcinsoszynskibjj@gmail.com</span></a>
+            </span>
+            <span class="coach-social">
+              <a href="//www.facebook.com/danielwrzesniewskibjj" target="_blank"><img class="social" src="img/svg/facebook.svg" alt=""> <span>Daniel Wrześniewski BJJ</span></a>
+            </span>
+            <span class="coach-social">
+              <a href="//www.instagram.com/danielwrzesniewski.bjj" target="_blank"><img class="social" src="img/svg/instagram.svg" alt=""> <span>danielwrzesniewski.bjj</span></a>
+            </span>
+          </div>
+        </div>
+    </div>
+    </section>
+
+  <footer>
+    <div class="social-link mobile">
+      <a href="https://www.facebook.com/zlomiarzteam"><img class="iconify" src="img/svg/facebook.svg" alt=""></a>
+      <a href="https://www.instagram.com/zlomiarz_team"><img class="iconify" src="img/svg/instagram.svg" alt=""></a>
+    </div>
+    <div class="content">
+      <span>Copyright &copy; Złomiarz Team Gdańsk</span>
+      <span>
+        <span>Follow us:</span>
+        <a href="https://www.facebook.com/zlomiarzteam" target="_blank"><img class="iconify" src="img/svg/facebook.svg" alt=""></a>
+        <a href="https://www.instagram.com/zlomiarz_team" target="_blank"><img class="iconify" src="img/svg/instagram.svg" alt=""></a>
+      </span>
+    </div>
+  </footer>
+</div>
+
+
+  <!-- jquery -->
+<script  src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- swiper js -->
+<script  src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- main js -->
+<script  src="js/coaches.js"></script>
+
+  
+    
+</body>
+</html>

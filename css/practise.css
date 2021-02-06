@@ -1,0 +1,337 @@
+@media(max-width: 800px){
+    body{
+        margin-top: 63px;
+    }
+}
+
+@media(max-width: 800px){
+    .loader-wrapper{
+        margin-top: -63px;
+    }
+}
+/* ################### HEADER ################################*/
+header{
+    height: 80vh;
+}
+header .bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+header img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0%;
+    transition: opacity 1.2s, transform 12s linear
+
+
+}
+header img.active{
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 100%;
+}
+
+.arrows-content{
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+}
+
+.arrows{
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 18px 0 32px 0;
+}
+
+.arrows .slide-number{
+    padding: 0 16px;
+    opacity: 60%;
+}
+.arrows .slider-arrow{
+    width: 32px;
+    opacity: 40%;
+}
+.arrows .slider-arrow:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+@media (max-width: 800px){
+    header{
+        display: none;
+    }
+    .arrows-content{
+        display: none;
+    }
+}
+
+/* ################### KONIEC HEADER ################################*/
+
+/* ################### PRACTISE ################################*/
+.practise{
+    padding-top: 0;
+    background-color: var(--primaryColor) !important;
+}
+/* HEAD */
+.practise .head{
+    display: flex;
+    flex-direction: column;
+}
+.practise .head h2{
+    margin-bottom: 19px;
+}
+.practise .head span{
+    margin-left: 17px;
+    padding: 13px 16px;
+}
+.practise .head span::before{
+    content: url('https://api.iconify.design/bx-bx-check.svg?color=%23808080&height=17');
+    vertical-align: -0.125em;
+    color: gray;
+    margin-right: -17px;
+    position: relative;
+    left: -24px;
+}
+/* KONIEC HEAD */
+
+/* BORDER */
+.practise .border{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0 32px 0;
+}
+.practise .border span{
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    flex-basis: 35%;
+}
+/* KONIEC BORDER */
+
+
+/* BJJ,  KICK*/
+.practise .bjj, .kick{
+    display: flex;
+    flex-direction: column;
+}
+.practise .bjj h1, .kick h1{
+    font-size: 2.1rem;
+}
+
+.practise .bjj p, .kick p{
+    line-height: 30px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+/* KONIEC BJJ, KICK */
+
+/* WRAPPPER */
+.practise .class{
+    padding: 13px 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.practise .class .arrow{
+    width: 18px;
+    height: 18px;
+}
+.practise .activity.active .class{
+    background-color: rgba(0, 0, 0, 0.05)
+}
+.practise .activity.active .class .arrow{
+    transform: rotate(180deg);
+}
+
+.practise .description{
+    max-height: 0;
+    overflow: hidden;
+    transition: background-color 0.2s, max-height 0.6s;
+    padding: 0 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.practise .description span:nth-of-type(1):before{
+    content: '';
+    display: block;
+    height: 16px;
+}
+.practise .description::after{
+    content: '';
+    display: block;
+    height: 16px;
+}
+.practise .activity.active .description{
+    max-height: 250px;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.practise img.mobile{
+    display: none;
+}
+
+@media (max-width: 800px){
+    .practise{
+        padding: 0 0 24px 0;
+    }
+    .practise .border{
+        display: none;
+    }
+    .practise .content img.mobile{
+        display: block;
+        width: 100%;
+    }
+    .practise .head{
+        padding: 32px 16px;
+    }
+    .practise .head h2{
+        margin-bottom: 0;
+        margin-top: 16px;
+    }
+    .practise .bjj h1, .kick h1{
+        font-size: 24px;
+    }
+    .practise .bjj, .practise .kick{
+        margin-bottom: 24px;
+        position: relative;
+        overflow-x: hidden;
+    }
+    .practise .bjj h1, .practise .kick h1{
+        padding: 32px 16px 16px 16px;
+        z-index: 1;
+    }
+
+    .practise .bjj .bg, .practise .kick .bg{
+        position: absolute;
+        z-index: 0;
+        opacity: 0.05;
+        height: 120px;
+        left: 30%;
+        top: 35px;
+    }
+    .practise .bjj p, .practise .kick p{
+        padding: 0 16px 16px 16px;
+        margin: 0;
+        z-index: 1;
+    }
+    .practise .activity.active .description{
+        max-height: 330px;
+    }
+    .practise .activity:nth-of-type(7).active .description{
+        max-height: 400px;
+    }
+
+    @media(max-width: 350px){
+        .practise .activity.active .description{
+            max-height: 400px;
+        }
+        .practise .activity:nth-of-type(7).active .description{
+            max-height: 440px;
+        }
+    }
+
+}
+
+/* KONIEC WRAPPPER */
+
+/* ########################################### KONIEC PRACTISE ################################################*/
+
+
+/* ########################################### CLEAN ################################################*/
+.clean{
+    padding: 40px 0;
+    background-color: var(--secondaryColor) !important;
+}
+.clean .content{
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    text-align: center;
+}
+.clean h1{
+    margin-bottom: 40px;
+    font-size: 2.4rem;
+}
+.clean .clean-behaviour{
+    display: flex;
+    justify-content: center;
+}
+.clean .clean-behaviour .type{
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.clean .clean-behaviour .type:nth-of-type(2){
+    margin: 0 44px;
+}
+.clean .clean-behaviour img{
+    height: 32px;
+}
+.clean .clean-behaviour .type span{
+    line-height: 22px;
+    margin-top: 24px;
+}
+
+@media (max-width: 800px){
+    .clean{
+        padding: 32px 0;
+    }
+    .clean .clean-behaviour{
+        flex-direction: column;
+        align-items: center;
+    }
+    .clean .clean-behaviour .type:nth-of-type(2){
+        margin: 16px 0;
+    }
+    .clean .clean-behaviour .type{
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px){
+    footer{
+        padding: 16px 0 0 0;
+    }
+    footer .content{
+        border: none;
+        background-color: var(--secondaryColor);
+    }
+
+    footer .social-link{
+        padding: 0 16px 16px 16px;
+    }
+    footer .social-link::before{
+        display: block;
+        content: '';
+        height: 1px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        margin-bottom: 16px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    footer .social-link{
+        display: block;
+        margin-bottom: -4px;
+    }
+    footer a{
+        position: relative;
+    }
+    footer .social-link img{
+        padding: 0 8px;
+    }
+    footer img.iconify:hover{
+        opacity: 50%;
+    }
+}

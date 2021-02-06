@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Złomiarz Team</title>
+   
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/practise.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap
+    " as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <style>
+
+body{
+  font-family: 'Montserrat'
+}
+.fonts-loaded body {
+	font-family: "Montserrat", serif;
+}
+      /* PRELOADER */
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(720deg)
+    }
+}
+/* loader */
+@media(max-width: 800px){
+    .loader-wrapper{
+        margin-top: 0 !important;
+    }
+
+    .loader-wrapper img{
+        width: 100px !important;
+        height: 100px !important;
+        top: calc(50% - 50px) !important;
+        left: calc(50% - 50px) !important;
+
+    }
+}
+    </style>
+
+
+    
+
+</head>
+<body>
+
+  <div class="loader-wrapper" style="z-index: 1000;background-color: #F8F8F8;width: 100vw; height: 100vh; position: fixed; margin-top: 72px;" > 
+    <img src="img/LOGO_ZT_MINI.png" alt="" style="  width: 150px;height: 150px;position: fixed;top: calc(50% - 75px);left: calc(50% - 75px);animation: rotate 10s infinite both linear;transform: rotate(0deg);">    
+  </div>  
+
+<span class="fade"></span> <!-- cień nawigacji mobilnej -->
+
+    <nav class="mobile">
+      
+      <div class="logo">
+        <div class="logoImg"><img src="img/LOGO_ZT_MINI.png" alt=""></div>
+        
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul>
+        <li><a href="index.html#about_us">O nas</a></li>
+        <li><a href="practise.html">Co trenujemy?</a></li>
+        <li><a href="coaches.html">Trenerzy</a></li>
+        <li><a href="index.html#schedule">Grafik</a></li>
+        <li><a href="index.html#price">Cennik</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#contact">Kontakt</a></li>
+    </ul>
+    </nav>
+    
+    <nav class="desktop">
+      <div class="content">
+        <img src="img/LOGO_ZT_MINI.png" alt="">
+        <ul>
+            <li><a href="index.html#about_us">O nas</a></li>
+            <li><a href="practise.html">Co trenujemy?</a></li>
+            <li><a href="coaches.html">Trenerzy</a></li>
+            <li><a href="index.html#schedule">Grafik</a></li>
+            <li><a href="index.html#price">Cennik</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="index.html#contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  <header>
+    <div class="bg">
+      <img class="kick" src="" alt="">
+      <img class="bjj" src="" alt="">
+    </div>
+  </header>
+
+  <div class="arrows-content">   
+    <div class="arrows">
+      <img class="left slider-arrow" src="img/svg/arrow-left.svg" alt="">
+      <span class="slide-number">01 / 02</span>
+      <img class="right slider-arrow" src="img/svg/arrow-right.svg" alt="">
+    </div>
+  </div>
+
+
+  <section class="practise">
+    <div class="content">
+      <div class="head">
+        <h1>Co trenujemy?</h1>
+        <h2>Sprawdź jakie dyscypliny możesz trenować w naszym klubie.</h2>
+      </div>
+      <img src="img/practise/bjjmobile.webp" alt="" class="mobile">
+      <div class="border">
+        <span></span>
+        <img src="img/svg/bjj-border.svg" alt="">
+        <span></span>
+      </div>
+      <div class="bjj">
+        <img src="img/svg/bjj-bg.svg" alt="" class="bg mobile">
+        <h1>Brazylijskie jiu-jitsu</h1>
+        <p>Brazylijskie jiu-jitsu to sport, który koncentruje się na walce z przeciwnikiem w stójce, zwarciu, ale przede wszystkim w parterze. Jest to sport chwytany, w którym dominują dźwignie, duszenia oraz inne techniki unieruchamiania i kontroli przeciwnika. W naszym klubie treningi BJJ prowadzone są dla osób początkujących, zaawansowanych, dorosłych oraz dla dzieci i młodzieży. Brazylijskie jiu-jitsu to dyscyplina, którą może trenować każdy bez względu na wiek, płeć czy predyspozycje. Jako klub możemy pochwalić się wieloma sukcesami naszych zawodników na scenie krajowej i międzynarodowej oraz sukcesem drużynowym jakim jest zdobycie Vice Mistrzostwa Polski w Brazylijskim Jiu-Jitsu w 2018 roku. Treningi prowadzone są przez doświadczoną kadrę trenerów i prawdziwych pasjonatów tego sportu.
+        </p>
+        <div class="classes"> 
+          <div class="activity" data-id="0">
+            <div  class="class">
+              BJJ początkujący
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wygodny strój do ćwiczeń / gi</span><br>
+              <span><b>Trener:</b> Adam Górny</span>
+              <br>
+              <span>Grupa przeznaczona jest dla osób chcących rozpocząć swoją przygodę z brazylijskim jiu-jitsu, nauczyć się podstaw lub je doskonalić. Na tę grupę mogą przyjść zarówno osoby zupełnie nowe, jak i doświadczone, wyższe pasy. Na treningi zapraszamy również młodzież w wieku 13 lat +. Jeżeli są to Twoje pierwsze treningi – gi nie jest wymagane.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="1">
+            <div class="class">
+              BJJ wszyscy
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wygodny strój do ćwiczeń / gi</span><br>
+              <span><b>Trener:</b> Marcin Soszyński, Daniel Wrześniewski</span>
+              <br>
+              <span>Grupa zarówno dla osób początkujących, jak i zaawansowanych. Treningi te prowadzone są na poziomie początkującym. Do treningów mogą dołączyć osoby, które chcą dopiero zacząć trenować brazylijskie jiu-jitsu oraz te, które chcą doskonalić podstawy.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="2">
+            <div class="class">
+              BJJ zaawansowani
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> minimum niebieski pas, gi</span><br>
+              <span><b>Trener:</b> Daniel Wrześniewski</span>
+              <br>
+              <span>Grupa zaawansowana jest dedykowana osobom, które posiadają solidne podstawy z zakresu bjj i są posiadaczami minimum niebieskiego pasa bjj. Na treningach przedstawiane i omawiane są zaawansowane techniki. Podczas każdego treningu odbywa się również sesja zadaniowa / sparingowa.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="3">
+            <div class="class">
+              BJJ średnio-zaawansowani
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> znajomość podstaw bjj, gi</span><br>
+              <span><b>Trener:</b> Michał Miranowski</span>
+              <br>
+              <span>Jest to grupa dla osób, które mają opanowane podstawy brazylijskiego jiu-jitsu i chcą poznawać bardziej zaawansowane techniki. Grupa nie jest przeznaczona dla osób, które chcą dopiero zacząć trenować bjj (wtedy zapraszamy na grupę początkującą).</span>
+            </div>
+          </div>
+          <div class="activity" data-id="4">
+            <div class="class">
+              BJJ no-gi średnio-zaawansowani
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> znajomość podstaw bjj</span><br>
+              <span><b>Trener:</b> Andrzej Iwat</span>
+              <br>
+              <span>Treningi odbywają się w formule no-gi (bez kimon) i przeznaczone są dla osób, które mają opanowane podstawy z zakresu bjj/grappling.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="5">
+            <div class="class">
+              BJJ sparingi gi & no-gi
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wygodny strój do ćwiczeń / gi</span>
+              <br>
+              <span>Na sesje sparingowe zapraszamy każdego, bez względu na doświadczenie bjj. Walki są jednym z najważniejszych elementów treningu brazylijskiego jiu-jitsu. Sesja sparingowa zaczyna się od samodzielnej rozgrzewki, a następnie kilkuminutowe walki.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="6">
+            <div class="class">
+              BJJ młodziki
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wiek min. 4 lata, wygodny strój do ćwiczeń</span><br>
+              <span><b>Trener:</b> Joanna Zabulewicz, Adam Górny</span>
+              <br>
+              <span>Prowadzimy treningi dla dzieci w grupach 4-7 lat oraz 8-12 lat. Na zajęciach dzieci będą uczyć się podstaw brazylijskiego jiu-jitsu poprzez atrakcyjną formę ćwiczeń i różnego rodzaju zabawy. Treningi BJJ skutecznie rozwiną sprawność i koordynację ruchową dzieci, nauczą dyscypliny i zasad fair play. Na treningach panuje serdeczna atmosfera, o którą zawsze dbają trenerzy podczas prowadzenia zajęć.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="7">
+            <div class="class">
+              Zapasy
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wygodny strój do ćwiczeń</span><br>
+              <span><b>Trener:</b> Marcin Grabowski</span>
+              <br>
+              <span>Trening zapaśniczy w naszym klubie przeznaczony jest dla osób, które chcą doskonalić swój parter. Zapasy są doskonałą dyscypliną uzupełniającą dla brazylijskiego jiu-jitsu. Pozwalają opanować podstawy zachowania się w stójce oraz doskonalić chwyty i rzuty.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/practise/kickmobile.webp" alt="" class="mobile">
+      <div class="border">
+        <span></span>
+        <img src="img/svg/kick-border.svg" alt="">
+        <span></span>
+      </div>
+      <div class="kick">
+        <img src="img/svg/kick-bg.svg" alt="" class="bg mobile">
+        <h1>Kickboxing</h1>
+        <p>Dyscyplina sportowa, w której walczy się stosując zarówno bokserskie ciosy pięścią, jak i kopnięcia. Sport rozwijający w sposób holistyczny umiejętności fizyczne takie jak: siła, szybkość, wytrzymałość, gibkość, poczucie rytmu. Regularne treningi zapewniają poprawę ogólnej kondycji fizycznej, spalanie zbędnych kalorii oraz gwarantują rozładowanie stresu. Treningi kickboxingu w naszym klubie cieszą się dużym zainteresowaniem zarówno wśród mężczyzn jak i kobiet. Prowadzone są w bardzo energiczny i motywujący sposób, dają poczucie świetnie zagospodarowanego czasu. Podział grup ze względu na poziom zaawansowania umożliwia treningi osobom początkującym oraz zaawansowanym.</p>
+        <div class="classes"> 
+          <div class="activity" data-id="8">
+            <div class="class">
+              Kickboxing początkujący
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wygodny strój do ćwiczeń</span><br>
+              <span><b>Trener:</b> Mateusz Kowalski</span>
+              <br>
+              <span>Treningi dedykowane są osobom, które chcą zacząć trenować kickboxing. Nie trzeba mieć żadnego doświadczenia treningowego aby dołączyć do tej grupy. Zajęcia prowadzone są w taki sposób, aby każdy kto do nich dołącza, mógł bez trudności wziąć w nich udział.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="9">
+            <div class="class">
+              Kickboxing średnio-zaawansowani
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wygodny strój do ćwiczeń, rękawice, ochraniacze</span><br>
+              <span><b>Trener:</b> Mateusz Kowalski</span>
+              <br>
+              <span>Treningi grupy średnio-zaawansowanej przeznaczone są dla osób, które mają opanowane podstawy kickboxingu. Jeżeli nie jesteś pewien, czy możesz dołączyć do tej grupy - zapytaj trenera o opinię.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="10">
+            <div class="class">
+              Kickboxing trening obwodowy
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wygodny strój do ćwiczeń</span><br>
+              <span><b>Trener:</b> Mateusz Kowalski</span>
+              <br>
+              <span>Trening stacyjny, obwodowy. Podczas tych zajęć przygotowywane są stacje na których wykonuje się różnego rodzaju ćwiczenia z obciążeniem lub ciężarem własnego ciała. Treningi te świetnie kształtują siłę, kondycję i wytrzymałość, co doskonale przygotowuje ciało do treningów kickboxingu. Na te treningi można dołączyć bez względu na doświadczenie.</span>
+            </div>
+          </div>
+          <div class="activity" data-id="11">
+            <div class="class">
+              Kickboxing sparingi
+              <img class="arrow" src="img/svg/chevron-down-outline.svg" alt="">
+            </div>
+            <div class="description">
+              <span><b>Wymagania:</b> wygodny strój do ćwiczeń, rękawice, ochraniacze</span><br>
+              <span><b>Trener:</b> Mateusz Kowalski</span>
+              <br>
+              <span>Sesja sparingowa kickboxingu przeznaczona jest dla osób z grupy średnio-zaawansowanej. Jeżeli nie jesteś pewien, czy możesz dołączyć do tej grupy - zapytaj trenera o opinię.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clean">
+    <div class="content">
+      <h1>Pamiętaj!</h1>
+      <div class="clean-behaviour">
+        <div class="type">
+          <img src="img/svg/head-side-cough-solid.svg" alt="">
+          <span>
+            Nie przychodź na trening jeżeli masz wątpliwości, co do swojego stanu zdrowia
+          </span>
+        </div>
+        <div class="type">
+          <img src="img/svg/hands-wash-solid.svg" alt="">
+          <span>Zachowaj higienę zarówno przed jak i po treningu</span>
+        </div>
+        <div class="type">
+          <img src="img/svg/shoe-prints-solid.svg" alt="">
+          <span>Nie wchodź w obuwiu na matę na której odbywają się treningi</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-link mobile">
+      <a href="//www.facebook.com/zlomiarzteam"></a><img class="iconify" src="img/svg/facebook.svg" alt=""></a>
+      <a href="//www.instagram.com/zlomiarz_team"><img class="iconify" src="img/svg/instagram.svg" alt=""></a>
+    </div>
+    <div class="content">
+      <span>Copyright &copy; Złomiarz Team Gdańsk</span>
+      <span>
+        <span>Follow us:</span>
+        <a href="//www.facebook.com/zlomiarzteam" target="_blank"><img class="iconify" src="img/svg/facebook.svg" alt=""></a>
+        <a href="//www.instagram.com/zlomiarz_team" target="_blank"><img class="iconify" src="img/svg/instagram.svg" alt=""></a>
+      </span>
+    </div>
+  </footer>
+
+
+
+  
+<!-- jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- main js -->
+<script src="js/practise.js"></script>
+    
+</body>
+</html>

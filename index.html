@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Złomiarz Team Gdańsk jest klubem sportów walki. Na prawie 200m² maty prowadzone są treningi z zakresu brazylijskiego jiu-jitsu oraz kickboxingu. Prowadzone są zajęcia dla osób początkujących, zaawansowanych, dorosłych, dzieci i młodzieży."/>
+    <title>Złomiarz Team Gdańsk</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- main css -->
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap
+    " as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <style>
+
+body{
+  font-family: 'Times'
+}
+.fonts-loaded body {
+	font-family: "Montserrat", serif;
+}
+/* PRELOADER */
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(720deg)
+    }
+}
+/* loader */
+@media(max-width: 800px){
+    .loader-wrapper{
+        margin-top: 0 !important;
+    }
+
+    .loader-wrapper img{
+        width: 100px !important;
+        height: 100px !important;
+        top: calc(50% - 50px) !important;
+        left: calc(50% - 50px) !important;
+
+    }
+}
+
+/* KONIEC PRELOADER */
+   </style>
+
+</head>
+<body>
+
+
+<div class="loader-wrapper" style="z-index: 1000;background-color: #F8F8F8;width: 100vw; height: 100vh; position: fixed;  margin-top: 72px;" > 
+  <img class="lazylaod" src="img/LOGO_ZT_MINI.png" alt="" style="  width: 150px;height: 150px;position: fixed;top: calc(50% - 75px);left: calc(50% - 75px);animation: rotate 10s infinite both linear;transform: rotate(0deg);">    
+</div>  
+
+<!-- cień nawigacji mobilnej -->
+<span class="fade"></span> 
+
+  <nav class="mobile">
+      
+      <div class="logo">
+        <div class="logoImg"><img src="img/LOGO_ZT_MINI.png" alt=""></div>
+        
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul>
+        <li><a href="#about_us">O nas</a></li>
+        <li><a href="practise.html">Co trenujemy?</a></li>
+        <li><a href="coaches.html">Trenerzy</a></li>
+        <li><a href="#schedule">Grafik</a></li>
+        <li><a href="#price">Cennik</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+    </ul>
+    </nav>
+    
+    <nav class="desktop">
+      <div class="content">
+        <a href="index.html" class="home"><img src="img/LOGO_ZT_MINI.png" alt=""></a>
+        <ul>
+            <li><a href="#about_us">O nas</a></li>
+            <li><a href="practise.html">Co trenujemy?</a></li>
+            <li><a href="coaches.html">Trenerzy</a></li>
+            <li><a href="#schedule">Grafik</a></li>
+            <li><a href="#price">Cennik</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  <header class="page-header">
+    <div class="bg">
+      <img class="kick" data-src="img/practise/bjj.webp" alt="">
+      <img class="bjj" data-src="img/practise/kick.webp" alt="">
+    </div>
+  </header>
+  
+
+
+  <section id="about_us">
+    <img class="bg-logo" data-src="img/LOGO_ZT_BG.png" alt=""> <!-- bg zębatka -->
+    </div>
+    <div class="content">
+      <div class="post">
+        <header>
+          <h1>O nas</h1>
+          <h2>Kim jesteśmy? Kilka słów o klubie Złomiarz Team Gdańsk.</h2>
+        </header>
+        <div class="text">
+        Jesteśmy klubem sportów walki, a na naszej macie odbywają się treningi <b>brazylijskiego jiu-jitsu</b> oraz <b>kickboxingu</b>. Trenerami są znakomici zawodnicy, odnoszący sukcesy zarówno w kraju jak i na scenie międzynarodowej. Nasz klub jest przyjaznym miejscem dla każdego, kto chce zacząć swoją przygodę ze sportami walki oraz dla doświadczonych zawodników z wieloletnim stażem treningowym. Jeżeli chcesz dołączyć do naszego klubu, to nie ma nic prostszego - wpadaj na trening.
+        </div>
+      <div class="video-container">
+        <div class="ratio-16-9 lazyload" data-youtube="i2HNNc1AdMA" data-ytparams="ssss">
+          <img class="play-btn" src="img/svg/you-tube-logo.svg" alt="">     
+        </div>
+      </div>
+
+      
+        <div class="wrap-text">
+          <h3>Historia klubu</h3>
+          <p>Początki, oraz powstanie klubu trudno jednoznacznie określić. Mała grupa osób pasjonujących się <b>brazylijskim jiu-jitsu</b>, postanowiła znaleźć własne lokum, gdzie mogłaby trenować całymi dniami, nie zamartwiając się troskami życia. Jedno z takich znalezionych i upatrzonych miejsc znajdowało się niedaleko <b>złomowiska</b>, z którego też niekiedy korzystali gdy odgruzowywali swoje przyszłe eldorado. Niestety plan wprowadzenia się spalił na panewce. Po tym zdarzeniu żartobliwie określili się <b>"złomiarzami"</b> z powodu tejże właśnie lokalizacji i wykonywanych w niej pracach. Grupa pasjonatów z czasem zaczęła się powiększać. Dla wielu z nich życie napisało różne scenariusze, jednakże <b>zamiłowanie</b> do tej dyscypliny pozostało.</p>
+          <br>
+          <p>Część ekipy postanowiła utworzyć sekcję i ogłosiła nabór. Co z tego wynikło i jak potoczyły się dalsze losy klubu? Zapraszamy do nas aby się o tym dowiedzieć! Nazwa utrzymuje się do dnia dzisiejszego. Padały różne pomysły nad zmianą naszego wizerunku, logo, itp. Ostatecznie większość członków była za pozostawieniem <b>"Złomiarz Team'u"</b>. Dlaczego? Gdyż budzi zainteresowanie, zapada w pamięć, a przede wszystkim świadczy o tym, że nie liczy się nazwa, a jedynie praca, praca i jeszcze raz ciężka praca. Także przypomina, iż do wielu rzeczy, jak i do samego siebie, należy mieć dystans, by móc cieszyć się życiem jeszcze bardziej. </p>
+        </div>
+        <button><span>Czytaj więcej</span>  <img class="arrow" src="img/svg/chevron-down-outline.svg"></button>
+      </div>
+          <!-- Swiper -->
+      <div class="swiper-container mobile">
+        <div class="swiper-wrapper">
+          <div id="s1" data-id="0" class="swiper-slide"><img src="img/about_us/mobile/onas1.webp" alt=""></div>
+          <div id="s2" data-id="1" class="swiper-slide"><img src="img/about_us/mobile/onas2.webp" alt=""></div>
+          <div id="s3" data-id="2" class="swiper-slide lazylaod"><img src="img/about_us/mobile/onas3.webp" alt=""></div>
+        </div>
+        <div class="arrows">
+          <img class="left slider-arrow" src="img/svg/arrow-left.svg" alt="">
+          <span class="slide-number">01 / 03</span>
+          <img class="right slider-arrow" src="img/svg/arrow-right.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+  <section id="schedule">
+    <div class="content">
+        <header>
+          <h1>Grafik zajęć</h1>
+          <h2>Aktualny rozkład zajęć obowiązuje od 18.01.2021.</h2>
+        </header>
+
+        <div class="type-schedule">
+        <span>Wybierz zajęcia:</span>
+        <select id="type-class">
+          <!-- BJJ -->
+          <option value="all">Wszystkie zajęcia</option>
+          <option value="bjj-all-type">-- BJJ --</option>
+          <option value="bjj-all">BJJ wszyscy</option>
+          <option value="bjj-beginners">BJJ początkujacy</option>
+          <option value="bjj-intermediate">BJJ średnio-zaawansowani</option>
+          <option value="bjj-no-gi">BJJ NO-GI</option>
+          <option value="bjj-advanced">BJJ zaawansowani</option>
+          <option value="bjj-sparring">BJJ sparingi</option>
+          <option value="bjj-kids">-- BJJ młodziki --</option>
+          <option value="bjj-kids-young">BJJ młodziki 4-7 lat</option>
+          <option value="bjj-kids-old">BJJ młodziki 8-12 lat</option>
+          <option value="wrestling">Zapasy</option>
+          <!-- KICK -->
+          <option value="kick-all-type">-- Kickboxing --</option>
+          <option value="kick-beginners">Kickboxing początkujacy</option>
+          <option value="kick-intermediate">Kickboxing średnio-zaawansowani</option>
+          <option value="kick-circut">Kickboxing trening obwodowy</option>
+          <option value="kick-sparring">Kickboxing sparingi</option>
+        </select>
+      </div>
+
+        <table class='table-schedule'>
+          <tr>
+            <td><span>Poniedziałek</span><span>Monday</span></td>
+            <td><span>Wtorek</span><span>Tuesday</span></td>
+            <td><span>Środa</span><span>Wednesday</span></td>
+            <td><span>Czwartek</span><span>Thursday</span></td>
+            <td><span>Piątek</span><span>Firday</span></td>
+            <td><span>Sobota</span><span>Saturday</span></td>
+          </tr>
+          <tr>
+            <td id="bjj-all"><span>7:15 - 8:45</span><span>BJJ WSZYSCY</span><span>BJJ ALL</span></td>
+            <td id="bjj-all"><span>7:15 - 8:45</span><span>BJJ WSZYSCY</span><span>BJJ ALL</span></td>
+            <td id="bjj-all"><span>7:15 - 8:45</span><span>BJJ WSZYSCY</span><span>BJJ ALL</span></td>
+            <td id="bjj-all"><span>7:15 - 8:45</span><span>BJJ WSZYSCY</span><span>BJJ ALL</span></td>
+            <td id="bjj-all"><span>7:15 - 8:45</span><span>BJJ WSZYSCY</span><span>BJJ ALL</span></td>
+            <td><span></span><span></span><span></span></td>
+          </tr>
+          <tr>
+            <td id="bjj-all"><span>9:00 - 10:30</span><span>BJJ WSZYSCY</span><span>BJJ ALL</span></td>
+            <td><span></span><span></span><span></span></td>
+            <td id="bjj-all"><span>9:00 - 10:30</span><span>BJJ WSZYSCY</span><span>BJJ ALL</span></td>
+            <td><span></span><span></span><span></span></td>
+            <td id="bjj-all"><span>9:00 - 10:30</span><span>BJJ WSZYSCY</span><span>BJJ ALL</span></td>
+            <td id="bjj-sparring"><span>10:30 - 12:15</span><span>SPARINGI BJJ GI & NOGI</span><span>BJJ SPARRING</span></td>
+          </tr>
+          <tr>
+            <td><span></span><span></span><span></span></td>
+            <td><span></span><span></span><span></span></td>
+            <td><span></span><span></span><span></span></td>
+            <td><span></span><span></span><span></span></td>
+            <td><span></span><span></span><span></span></td>
+            <td id="kick-sparring"><span>12:30 - 14:00</span><span>SPARINGI KICKBOXING</span><span>KICKBOXING SPARRING</span></td>
+          </tr>
+          <tr>
+            <td id="bjj-kids-old"><span>15:45 - 16:45</span><span>BJJ MŁODZIKI 8-12 LAT</span><span>BJJ KIDS 8-12 y/o</span></td>
+            <td id="bjj-kids-young"><span>15:45 - 16:45</span><span>BJJ MŁODZIKI 4-7 LAT</span><span>BJJ KIDS 4-7 y/o</span></td>
+            <td id="bjj-kids-old"><span>15:45 - 16:45</span><span>BJJ MŁODZIKI 8-12 LAT</span><span>BJJ KIDS 8-12 y/o</span></td>
+            <td id="bjj-kids-young"><span>15:45 - 16:45</span><span>BJJ MŁODZIKI 4-7 LAT</span><span>BJJ KIDS 4-7 y/o</span></td>
+            <td id="bjj-kids-old"><span>15:45 - 16:45</span><span>BJJ MŁODZIKI 8-12 LAT</span><span>BJJ KIDS 8-12 y/o</span></td>
+            <td><span></span><span></span><span></span></td>
+          </tr>
+          <tr>
+            <td id="bjj-beginners"><span>17:00 - 18:00</span><span>BJJ POCZĄTKUJĄCY (13 lat+)</span><span>BJJ BEGINNERS / YOUTH 13 y/o +</span></td>
+            <td id="bjj-intermediate"><span>17:00 - 18:15</span><span>BJJ ŚREDNIO-ZAAWANSOWANI</span><span>BJJ INTERMEDIATE</span></td>
+            <td id="bjj-beginners"><span>17:00 - 18:00</span><span>BJJ POCZĄTKUJĄCY (13 lat+)</span><span>BJJ BEGINNERS / YOUTH 13 y/o +</span></td>
+            <td id="wrestling"><span>17:00 - 18:00</span><span>ZAPASY</span><span>WRESTLING</span></td>
+            <td id="bjj-beginners"><span>17:00 - 18:00</span><span>BJJ POCZĄTKUJĄCY (13 lat+)</span><span>BJJ BEGINNERS / YOUTH 13 y/o +</span></td>
+            <td><span></span><span></span><span></span></td>
+          </tr>
+          <tr>
+            <td id="bjj-advanced"><span>18:15 - 19:45</span><span>BJJ ZAAWANSOWANI</span><span>BJJ ADVANCED</span></td>
+            <td id="bjj-no-gi"><span>18:30 - 20:00</span><span>BJJ NO-GI ŚREDNIO-ZAAWANSOWANI</span><span>BJJ INTERMEDIATE</span></td>
+            <td id="bjj-sparring"><span>18:15 - 19:45</span><span>SPARINGI BJJ GI & NOGI</span><span>BJJ SPARRING</span></td>
+            <td id="bjj-no-gi"><span>18:15 - 19:45</span><span>BJJ NO-GI ŚREDNIO-ZAAWANSOWANI</span><span>BJJ INTERMEDIATE</span></td>
+            <td id="bjj-advanced"><span>18:15 - 19:45</span><span>BJJ ZAAWANSOWANI</span><span>BJJ ADVANCED</span></td>
+            <td><span></span><span></span><span></span></td>
+          </tr>
+          <tr>
+            <td id="kick-beginners"><span>20:00 - 21:30</span><span>KICKBOXING POCZĄTKUJĄCY</span><span>KICKBOXING BEGINNERS</span></td>
+            <td id="kick-intermediate"><span>20:15 - 21:45</span><span>KICKBOXING ŚREDNIO-ZAAWANSOWANI</span><span>KICKBOXING INTERMEDIATE</span></td>
+            <td id="kick-circut"><span>20:00 - 21:30</span><span>KICKBOXING TRENING OBWODOWY</span><span>CIRCUT TRAINING FOR ALL</span></td>
+            <td id="kick-beginners"><span>20:00 - 21:30</span><span>KICKBOXING POCZĄTKUJĄCY</span><span>KICKBOXING BEGINNERS</span></td>
+            <td id="kick-intermediate"><span>20:00 - 21:30</span><span>KICKBOXING ŚREDNIO-ZAAWANSOWANI</span><span>KICKBOXING INTERMEDIATE</span></td>
+            <td><span></span><span></span><span></span></td>
+          </tr>
+        </table>
+    </div>
+  </section>
+  
+  <section id="price">
+    <img class="bg-logo" data-src="img/LOGO_ZT_BG.png" alt=""> <!-- bg zębatka -->
+    <div class="content">
+      <header>
+        <h1>Cennik</h1>
+        <h2>Składki członkowskie, czyli ile i za co.</h2>
+      </header>
+        <div class="wraper">
+          <div class="table">
+            <table>
+              <tr>
+                <td><b>Rodzaj</b></td>
+                <td><b>Kobiety</b></td>
+                <td><b>Mężczyźni</b></td>
+              </tr>
+              <tr>
+                <td><b>Open</b></td>
+                <td>179 PLN</td>
+                <td>199 PLN</td>
+              </tr>
+              <tr>
+                <td><b>15 wejść</b></td>
+                <td>130 PLN</td>
+                <td>150 PLN</td>
+              </tr>
+              <tr>
+                <td><b>8 wejść</b></td>
+                <td>110 PLN</td>
+                <td>130 PLN</td>
+              </tr>
+              <tr>
+                <td><b>4 wejścia</b></td>
+                <td>90 PLN</td>
+                <td>90 PLN</td>
+              </tr>
+              <tr>
+                <td><b>1 wejście</b></td>
+                <td>30 PLN</td>
+                <td>30 PLN</td>
+              </tr>
+              <tr>
+                <td><b>Młodziki 4-7 lat</b></td>
+                <td><b>Młodziki 8-12 lat</b></td>
+              </tr>
+              <tr>
+                <td>110 PLN</td>
+                <td>120 PLN</td>
+              </tr>
+            </table>
+            <span class="payment">
+              <span>Dane do przelewu:</span>
+              <span><b>84 1140 2004 0000 3602 7478 0836</b></span>
+              <span>Tytuł: Imię i nazwisko, typ karnetu, miesiąc za który płacisz</span>
+            </span>
+          </div>
+          
+           <div class="text">
+            <span>Pierwszy trening jest darmowy</span>
+            <span>Płatności za karnet możesz dokonać przelewem bądź gotówką przed/po treningu</span>
+            <span>Zakupiony karnet ważny jest <b>dany miesiąc</b> (np. wrzesień)</span>
+            <span>W ramach jednego wejścia możesz skorzystać ze wszystkich treningów odbywających się tego dnia</span>
+            <span>Wejście na trening sparingowy BJJ jest darmowy dla <b>brązowych i czarnych pasów</b> z innych klubów</span>
+            <span><b>Honorujemy karty: Multisport Plus, Multisport Senior, Multisport Junior, FitProfit oraz FitSport</b></span>
+            <span><b>Zniżki rodzinne:</b><br>
+              10% zniżki - 2 członków rodziny<br>
+              15% zniżki - 3 członków rodziny<br>
+              20% zniżki - 4 + członków rodziny</span>
+          </div> 
+        </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="content">
+      <header>
+        <h1>FAQ</h1>
+        <h2>Sprawdź, być może znajdziesz tutaj odpowiedź na nurtujące Cię pytania.</h2>
+      </header>
+      <div class="tasks">
+        <div class="wraper">
+          <div data-id="0" class="question">
+            <span>Jak przygotować się na pierwszy trening (bjj / kickboxing)?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Na początku nie potrzebujesz specjalistycznego sprzętu. Wystarczy: wygodny strój sportowy, klapki, żeby przejść swobodnie z szatni na matę oraz coś do picia.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="1" class="question">
+            <span>Kiedy mogę przyjść na pierwszy trening?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Do treningów możesz dołączyć w dowolnym momencie, w naszym klubie nie prowadzimy specjalnych naborów.
+            </div>
+          </div>
+        </div>
+        <div class="wraper" >
+          <div data-id="2" class="question">
+            <span>Czy obowiązują zapisy?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Nie prowadzimy zapisów, nie trzeba się wcześniej zapowiadać. Wystarczy przyjść na trening.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="3" class="question">
+            <span>Prowadzicie treningi tylko dla kobiet?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Nie prowadzimy zajęć tylko dla kobiet. Wszystkie grupy treningowe są mieszane, a Panie stanowią naprawdę dużą i bardzo ważną część naszego klubu.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="4" class="question">
+            <span>Dla kogo jest grupa średnio-zaawansowana (bjj / kickboxing)?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Grupa średnio zaawansowana jest przeznaczona dla osób, które mają opanowane solidne podstawy danej dyscypliny. Jeżeli nie jesteś pewien/pewna swoich umiejętności, to zapytaj trenera o opinię i radę.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="5" class="question">
+            <span>Czy prowadzicie treningi MMA?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Nie prowadzimy treningów z zakresu MMA.
+            </div>
+          </div>
+        </div>        
+        <div class="wraper">
+          <div data-id="6" class="question">
+            <span>Brakuje mi kondycji. Czy mimo to mogę dołączyć do treningów?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Jak najbardziej. Brak kondycji nie przeszkadza w rozpoczęciu treningów sportów walki. Treningi grup początkujących prowadzone są w taki sposób, aby każdy kto dołącza do treningów, poradził sobie z uczestnictwem w zajęciach i nie zniechęcał się do dalszego trenowania.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="7" class="question">
+            <span>Czy niewykorzystane wejścia przechodzą na następny miesiąc?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Nie. Karnet wykupujesz na dany miesiąc (np. wrzesień), a zatem niewykorzystane wejścia przepadają.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="8" class="question">
+            <span>Jak często powinienem trenować?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Jest to bardzo indywidualna kwestia, jednakże kluczem do prawidłowego rozwoju w treningach sportów walki jest regularność. Jeżeli masz możliwość aby trenować np. tylko raz w tygodniu – nie jest to przeszkodą. Na początku drogi ze sportami walki 2-3 treningi tygodniowo w zupełności wystarczą.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="9" class="question">
+            <span>Czy muszę mieć kimono (gi) na treningu?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Na początku swojej drogi z brazylijskim jiu-jitsu nie wymagamy kimona (gi). Polecamy zdecydować się na taki zakup, tylko w przypadku, gdy czujesz, że zostaniesz w tym sporcie na dłużej.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="10" class="question">
+            <span>Mogę przychodzić tylko rano, czy mogę dołączyć do treningów bjj bez doświadczenia?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Jak najbardziej. Treningi poranne prowadzone są z myślą o osobach początkujących oraz tych, które dopiero chcą zacząć trenować brazylijskie jiu-jitsu.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="11" class="question">
+            <span>Czy prowadzicie treningi indywidualne?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+             Tak. Jeżeli jesteś zainteresowany treningiem indywidualnym z którymś z naszych trenerów, to skontaktuj się z nim bezpośrednio. Sprawdź zakładkę Trenerzy.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="12" class="question">
+            <span>Czy akceptujecie kartę Multisport?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Tak, honorujemy karty: Multisport Plus, Junior, Senior oraz FitProfit, FitSport.
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div data-id="13" class="question">
+            <span>Sami się zmieniamy?</span>
+            <img class="arrow" src="img/svg/chevron-down-outline.svg">
+            <div class="answer">
+              Trochę taki inside joke, załapiesz z czasem ;-)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+<div class="bg">  <!-- bg zębatka -->
+  <img class="bg-logo" data-src="img/LOGO_ZT_BG.png" alt=""> 
+  <section id="contact">
+    <div class="content">
+      <header> 
+        <h1>Kontakt</h1>
+        <h2>Zostaw lajka na facebooku, napisz, zadzwoń. Dołącz do nas!</h2>
+      </header>
+
+       <div class="info">
+        <div class="card">
+        <img class="desktop lazylaod" data-src="img/LOGO_ZT_GDA-1.png" alt="">
+          <span>+ 48 691 839 697</span>
+          <span>zlomiarzteamgdansk@gmail.com</span>
+          <span>ul. Słowackiego 4, 80-001 Gdańsk</span>
+          <span>Na bieżąco działamy w social mediach:</span>
+          <span class="icon">
+            <a href="//www.facebook.com/zlomiarzteam" target="_blank"><img class="iconify" src="img/svg/facebook.svg" alt=""></a>
+            <a href="//www.instagram.com/zlomiarz_team" target="_blank"><img class="iconify" src="img/svg/instagram.svg" alt=""></a>
+          </span>
+        </div>
+        <div class="card mobile">
+        <img class="lazyload" data-src="img/LOGO_ZT_GDA-1.png" alt="">
+        <span><a href="tel:+48691839697">+ 48 691 839 697</a></span>
+        <span><a href="mailto:zlomiarzteamgdansk@gmail.com">zlomiarzteamgdansk@gmail.com</a></span>
+        <span><a href="//www.google.com/maps/place/Z%C5%82omiarz+Team+Gda%C5%84sk/@54.380731,18.5958,16z/data=!4m5!3m4!1s0x0:0xd7453f3e92dd7d19!8m2!3d54.380731!4d18.5958?hl=pl">ul. Słowackiego 4, 80-001 Gdańsk</a></span>
+          <span>Na bieżąco działamy w social mediach:</span>
+          <span class="icon">
+            <a href="//www.facebook.com/zlomiarzteam"><img class="iconify" src="img/svg/facebook.svg" alt=""></a>
+            <a href="//www.instagram.com/zlomiarz_team"><img class="iconify" src="img/svg/instagram.svg" alt=""></a>        
+          </span>
+        </div>
+    
+          <div class="lazylaod" id="map"></div>
+      </div> 
+  
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <span>Copyright &copy; Złomiarz Team Gdańsk</span>
+      <span>
+        <span>Follow us:</span>
+        <a href="//www.facebook.com/zlomiarzteam" target="_blank"><img class="iconify" src="img/svg/facebook.svg" alt=""></a>
+        <a href="//www.instagram.com/zlomiarz_team" target="_blank"><img class="iconify" src="img/svg/instagram.svg" alt=""></a>
+      </span>
+    </div>
+  </footer>
+</div>
+
+
+  
+<!-- jquery-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- google maps js -->
+<!-- <script src="js/google_maps.js"></script> -->
+<!-- Swiper JS -->
+<script  src="//unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- main js-->
+<script src="js/java.js"></script>
+
+<script src="js/lazysizes.min.js"></script>
+<script src="js/ls.video-embed.min.js"></script>
+<script src="js/google_maps.js"></script>
+
+<script>
+      var fired = false;
+    $(window).scroll(function() {
+       var hT = $('#map').offset().top,
+           hH = $('#map').outerHeight(),
+           wH = $(window).height(),
+           wS = $(this).scrollTop();
+           wB = hT+hH-wH;
+        if (wS > wB  && fired === false ){
+            console.log('mapa'); 
+            fired = true;
+            $.getScript( '//maps.googleapis.com/maps/api/js?key=AIzaSyC18uD49QABQJUXXj3mlxrZ9mnYS-6eBe8', function( google, textStatus, jqxhr ) {
+              initMap(); 
+            });   
+
+       }
+    });
+
+</script>
+    
+</body>
+</html>
